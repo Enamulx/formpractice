@@ -9,60 +9,176 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
 	<body>
-		<form class="max-w-96 mx-auto" action="">
-			<label class="text-gray-700" for="first-name">First Name:</label>
-			<input
-				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
-				type="text"
-				placeholder="Jane"
-			/>
-			<label class="text-gray-700" for="last-name">Last Name:</label>
-			<input
-				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
-				type="text"
-				placeholder="Jane"
-			/>
+		<upper-section class="flex justify-between bg-slate-400">
+			<p>Kushtia Sadar kushtia</p>
+			<p>yourcompany@gmail.com</p>
+			<p>0170 000 0000</p>
+			<p>24/7 support</p>
+			<p>
+				<a href="#">sign in</a>/
+				<a href="#">Register</a>
+			</p>
+		</upper-section>
+		<nav class="flex justify-between">
+			<div class="logo">
+				<a href="#">
+					<img
+						src="/src/img/306451139_1629226287479104_4048945798329327535_n.jpg"
+						alt=""
+					/>
+				</a>
+			</div>
+			<div class="text-gray-400 mx-20 my-20 p-10">
+				<a class="pr-10" href="#">Home</a>
+				<a class="pr-10" href="#">Service</a>
+				<a class="pr-10" href="#">Blog</a>
+				<a class="pr-10" href="#">Price</a>
+				<a class="pr-10" href="#">About</a>
+				<a class="pr-10" href="#">contact</a>
+				<button class="w-20 text-white bg-green-500 rounded">
+					<a href="#">Quote</a>
+				</button>
+			</div>
+		</nav>
+		<section class="hero">
+			<img class="w-full h-90" src="/src/img/maxresdefault.jpg" alt="" />
+		</section>
+		<section class="flex card">
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img
+					class=""
+					src="src/img/pexels-cottonbro-studio-3584931.jpg"
+					alt=""
+				/>
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+		</section>
+		<section class="flex card">
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img
+					class=""
+					src="src/img/pexels-cottonbro-studio-3584931.jpg"
+					alt=""
+				/>
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+		</section>
+		<section class="flex card">
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img src="src/img/pexels-cottonbro-studio-3584931.jpg" alt="" />
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+			<div class="m-20">
+				<img
+					class=""
+					src="src/img/pexels-cottonbro-studio-3584931.jpg"
+					alt=""
+				/>
+				<p class="my-10">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+					eveniet?
+				</p>
+			</div>
+		</section>
 
-			<label class="text-gray-700" for="last-name">Password:</label>
-			<input
-				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
-				type="password"
-				placeholder="Password"
-			/>
-			<label class="text-gray-700 text-xs font-bold mb-2" for="grid-city">
-				City
-			</label>
-			<input
-				class="w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-				type="text"
-				placeholder="Kushtia"
-			/>
-			<label
-				class="uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-				for="grid-state"
-			>
-				State
-			</label>
-			<select
-				class="w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-				id="grid-state"
-			>
-				<option>New Mexico</option>
-				<option>Missouri</option>
-				<option>Texas</option>
-			</select>
+		<section class="bg-green-400 flex justify-between p-10">
+			<h4 class="text-white">Contact us for custom order</h4>
+			<button class="rounded-lg bg-white p-3">Get Started</button>
+		</section>
 
-			<label
-				class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-				for="grid-zip"
-			>
-				Zip
-			</label>
-			<input
-				class="w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-				type="text"
-				placeholder="90210"
-			/>
-		</form>
+		<section class="flex justify-evenly bg-gray-300 pe-10">
+			<div>
+				<img
+					src="/src/img/306451139_1629226287479104_4048945798329327535_n.jpg"
+					alt=""
+				/>
+				Lorem ipsum dolor sit amet consectetur adipisicing Dicta neque eveniet,
+				suscipit harum deserunt tempora!
+			</div>
+			<div>
+				<h4>Menu</h4>
+				<ul>
+					<li>Home</li>
+					<li>Service</li>
+					<li>Blog</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div>
+				<h4>Menu</h4>
+				<ul>
+					<li>Home</li>
+					<li>Service</li>
+					<li>Blog</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div>
+				<h4>Menu</h4>
+				<ul>
+					<li>Home</li>
+					<li>Service</li>
+					<li>Blog</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+			<div>
+				<h4>Menu</h4>
+				<ul>
+					<li>Home</li>
+					<li>Service</li>
+					<li>Blog</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</section>
 	</body>
 </html>
