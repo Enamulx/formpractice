@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+		<link rel="stylesheet" href="/src/styles.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
+	<body>
+		<form class="max-w-96 mx-auto" action="">
+			<label class="text-gray-700" for="first-name">First Name:</label>
+			<input
+				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
+				type="text"
+				placeholder="Jane"
+			/>
+			<label class="text-gray-700" for="last-name">Last Name:</label>
+			<input
+				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
+				type="text"
+				placeholder="Jane"
+			/>
+
+			<label class="text-gray-700" for="last-name">Password:</label>
+			<input
+				class="w-100 block bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
+				type="password"
+				placeholder="Password"
+			/>
+			<label class="text-gray-700 text-xs font-bold mb-2" for="grid-city">
+				City
+			</label>
+			<input
+				class="w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				type="text"
+				placeholder="Kushtia"
+			/>
+			<label
+				class="uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+				for="grid-state"
+			>
+				State
+			</label>
+			<select
+				class="w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				id="grid-state"
+			>
+				<option>New Mexico</option>
+				<option>Missouri</option>
+				<option>Texas</option>
+			</select>
+
+			<label
+				class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+				for="grid-zip"
+			>
+				Zip
+			</label>
+			<input
+				class="w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+				type="text"
+				placeholder="90210"
+			/>
+		</form>
+	</body>
+</html>
